@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background: #2d022e;
+}
+.container {
+    width: fit-content;
+    margin: 20% auto auto;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav__item {
+    margin-right: 25px;
+}
+
+.main-nav__link {
+    text-decoration: none;
+    color: #c0cad3;
+    transition: 0.3s ease;
+    font-size: 30px;
+}
+
+.main-nav__link:hover {
+    color: #ff00d4;
+    text-shadow: 0 0 12px #ff00d4;
+}
